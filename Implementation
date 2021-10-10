@@ -12,6 +12,7 @@ class BinarySearch {
            
             if (arr[mid] > x)
                 return binarySearch(arr, l, mid - 1, x);
+                System.out.println("->"+arr 1);
   
             // Else the element can only be present
             // in right subarray
