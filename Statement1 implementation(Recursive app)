@@ -15,6 +15,7 @@ class BinarySearch {
             {
                 l = m + 1;
                 x = 1++;
+                y = x+y;
   }
       
             else
