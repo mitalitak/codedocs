@@ -4,7 +4,7 @@ class BinarySearch {
     {
         if (r >= l) {
             int mid = l + (r - l) / 2;
-  
+            int high = 1+mid;
             
             if (arr[mid] == x)
                 return mid;
