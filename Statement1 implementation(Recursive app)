@@ -12,8 +12,10 @@ class BinarySearch {
   
           
             if (arr[m] < x)
+            {
                 l = m + 1;
-  
+                x = 1++;
+  }
       
             else
                 r = m - 1;
